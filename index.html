@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html ng-app="kportalexterno">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=10"/>        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <base href="/facturacion/">
+        <title>Facturaci&oacute;n Electr&oacute;nica| 7-Eleven </title>
+        <link href="KPortalExterno/img/favicon_7-Eleven.jpg" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="KPortalExterno/css/normalize.css">
+        <link rel="stylesheet" href="KPortalExterno/css/bootstrap.css">
+        <link rel="stylesheet" href="KPortalExterno/css/angular-material.min.css">
+        <link rel="stylesheet" href="KPortalExterno/css/style.css">
+
+        <!-- Carrusel -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="KPortalExterno/css/jk-carousel.min.css" />
+        <!--link rel="stylesheet" href="KPortalExterno/css/style.css" /-->
+        <!-- fin Carrusel -->
+    </head>
+    <body >
+    <div class="container-fluid">
+      <banner-superior></banner-superior>
+      <cuerpo-app></cuerpo-app>
+      <footer class="navbar navbar-fixed-bottom">
+        <p id="ie-msg" class="muted t-center">Para mejor funcionalidad del portal por favor utlizar los exploradores GOOGLE CHROME (versiones) ó MOZILLA FIREFOX (versiones)</p>
+            <div style="height: 10px; width: 12.5%; background-color: #da004c; float: left;"></div>
+            <div style="height: 10px; width: 12.5%; background-color: #00812c; float: right;"></div>
+            <div style="height: 10px; width: 12.5%; background-color: #da004c; float: right;"></div>
+            <div style="height: 10px; width: 12.5%; background-color: #ff7800; float: right;"></div>
+            <div style="height: 10px; width: 12.5%; background-color: #00812c; float: right;"></div>
+            <div style="height: 10px; width: 12.5%; background-color: #da004c; float: right;"></div>
+            <div style="height: 10px; width: 12.5%; background-color: #ff7800; float: right;"></div>
+            <div style="height: 10px; width: 12.5%; background-color: #00812c; float: right;"></div>
+      </footer>
+
+    </div>        
+    <script type="text/javascript" src="KPortalExterno/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular-material.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular-animate.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular-aria.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular-messages.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular-recaptcha.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular-money-directive.js"></script>
+    <script type="text/javascript" src="KPortalExterno/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/js/moment.js"></script>
+    <script type="text/javascript" src="KPortalExterno/js/PDFViewer.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/kportalexterno.js?version=7"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/env.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/angular-moment.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/dataGrid.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/pagination.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/dataGridUtils.min.js"></script>
+    <script type="text/javascript" src="KPortalExterno/pdfjs/pdf.js"></script>
+    <script type="text/javascript" src="KPortalExterno/pdfjs/pdf.worker.js"></script>
+    <script type="text/javascript" src="KPortalExterno/pdfjs/pdfobject.js"></script>
+    <script type="text/javascript" src="KPortalExterno/angular/captcha.js"></script>    
+    <!-- Carrusel -->
+    <script src="KPortalExterno/js/jk-carousel.min.js"></script>
+    <!--script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script-->
+    <!-- Fin Carrusel -->
+    <script type="text/javascript">
+		  function refImg(){
+			     document.getElementById("Kaptcha").src="KPortalExterno/Kaptcha.jpg?data="+Math.random();
+		       }
+		</script>
+</body>
+</html>
